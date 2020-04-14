@@ -1,0 +1,21 @@
+{
+  "author": {
+    "email": "TrejGun+encoder@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/TrejGun/encoder-verdaccio"
+  },
+  "dependencies": {
+    "verdaccio": "4.5.1",
+    "verdaccio-s3-storage": "0.2.1"
+  },
+  "license": "UNLICENSED",
+  "name": "@encoder/verdaccio",
+  "private": true,
+  "scripts": {
+    "start": "verdaccio --config ./config.yml",
+    "zip": "zip archive.zip config.yml htpasswd package.json"
+  },
+  "version": "0.0.1"
+}
