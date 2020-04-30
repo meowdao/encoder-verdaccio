@@ -53,6 +53,11 @@ packages:
     publish: trejgun
     unpublish: trejgun
 
+  '@daoua/*':
+    access: trejgun tony
+    publish: trejgun tony
+    unpublish: trejgun tony
+
 
   '**':
     # allow all users (including non-authenticated users) to read and
@@ -86,4 +91,4 @@ logs:
   #- {type: file, path: verdaccio.log, level: info}
 
 listen:
-  - localhost:8080
+  - localhost:4873
