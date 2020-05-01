@@ -91,4 +91,4 @@ logs:
   #- {type: file, path: verdaccio.log, level: info}
 
 listen:
-  - localhost:4873
+  - localhost:8080
