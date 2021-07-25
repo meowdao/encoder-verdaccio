@@ -13,8 +13,8 @@ store:
     region: eu-west-1 # optional, will use aws s3's default behavior if not specified
     # endpoint: https://{service}.{region}.amazonaws.com # optional, will use aws s3's default behavior if not specified
     # s3ForcePathStyle: false # optional, will use path style URLs for S3 objects
-    accessKeyId: AKIA4M2WYZAT6SCXYUWL # optional, aws accessKeyId for private S3 bucket
-    secretAccessKey: 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 # optional, aws secretAccessKey for private S3 bucket
+    accessKeyId: ACCESS_KEY_ID # optional, aws accessKeyId for private S3 bucket
+    secretAccessKey: SECRET_ACCESS_KEY # optional, aws secretAccessKey for private S3 bucket
 
 web:
   title: Encoder
@@ -49,14 +49,14 @@ uplinks:
 
 packages:
   '@encoder/*':
-    access: trejgun
-    publish: trejgun
-    unpublish: trejgun
+    access: moewdao
+    publish: moewdao
+    unpublish: moewdao
 
   '@daoua/*':
-    access: trejgun tony
-    publish: trejgun tony
-    unpublish: trejgun tony
+    access: moewdao
+    publish: moewdao
+    unpublish: moewdao
 
 
   '**':
